@@ -1,0 +1,64 @@
+/* resetea todos los parametros */
+.separador{
+    background-color: rgb(247, 100, 16);
+    height: 5px;
+}
+
+/* .row div img{
+    max-width: 20vw;
+} */
+
+.imagenAccesorio{
+    width: 100%;
+    height: 40vh;
+    margin: 1vw;
+} 
+
+.headerCoctel{
+    color: blue;
+    margin-bottom: 0vh;
+    font-size: medium;
+    background-color: transparent;
+    /* opacity: 0.6; */
+    color: blue;
+    font-size: x-large; 
+
+}
+
+.textoCoctel{
+    color: blue;
+    margin-bottom: 0vh;
+    font-size: medium;
+    background-color: transparent;
+    color: blue;
+    font-size: x-large; 
+
+}
+
+.tituloCoctel{
+    color: blue;
+}
+
+.container-fluid{
+    background-color: rgb(146, 146, 163);
+    /* height: 7vh; */
+}
+
+.container-fluid a{
+    color: bisque ;
+}
+
+.row div img{
+    background-size: cover;
+}
+
+.d-none {
+    display: inline !important;
+}
+
+footer {
+    width: 100vw;
+    height: 7vh;
+    background-color: rgb(146, 146, 163);
+    font-size: large;
+}

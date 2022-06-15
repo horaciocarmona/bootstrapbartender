@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Bartender</a>
+                <nav class="navbar">
+                    <div class="container">
+                      <a class="navbar-brand" href="#">
+                        <img src="./img/bartender2.png" alt="" width="40" height="40">
+                      </a>
+                    </div>
+                  </nav>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#carouselExampleCaptions">Cocteles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#bebidas">Bebidas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#accesorios">Accesorios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- Slider Principal -->
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/GreenBar2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/GreenBar10.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/herramientas-barra-para-cocteleria.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- bebidas -->
+        <div class="containter" id="bebidas">
+            <div class="row">
+                <div class="col">
+                    <div class="col-12">
+                        <h1 class="display-6 mt-1 p-1">Comenzamos a tomar otro nivel, te ofrecemos estas bebidas</h1>
+                        <hr class="separador">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-3 col-sm-6 col-xl-3">
+                    <img src="./img/campari.png" class="rounded mx-auto d-block" alt="Campqari">
+                    <p class="text-center">Campari 750ml</p>
+                </div>
+                <div class="col-12 col-md-3 col-sm-6 col-xl-3">
+                    <img src="./img/puertodeindiasclasic.png" class="rounded mx-auto d-block" alt="puertoIndias">
+                    <p class="text-center">Puerto de inidas
+                        clascio 700ml</p>
+                </div>
+                <div class="col-12 col-md-3 col-sm-6 col-xl-3">
+                    <img src="./img/bombay bramle.png" class="rounded mx-auto d-block" alt="Bombay Bramble">
+                    <p class="text-center">Gin Bombay Bramble 700</p>
+                </div>
+                <div class="col-12 col-md-3 col-sm-6 col-xl-3">
+                    <img src="./img/capelreservadotransparente.png" class="rounded mx-auto d-block"
+                        alt="Capel reservado">
+                    <p class="text-center">Capel reservado transparente
+                        clasico 700ml</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-3 col-sm-6  col-xl-3">
+                    <img src="./img/negroni.png" class="rounded mx-auto d-block" alt="Negroni">
+                    <p class="text-center">Negroni 750ml</p>
+                </div>
+                <div class="col-12 col-md-3 col-sm-6  col-xl-3">
+                    <img src="./img/heraclitolondondry.png" class="rounded mx-auto d-block" alt="Heraclito">
+                    <p class="text-center"> Heraclito
+                        clascio 700ml</p>
+                </div>
+                <div class="col-12 col-md-3 col-sm-6  col-xl-3">
+                    <img src="./img/whiskyjackdaniels.jpg" class="rounded mx-auto d-block" alt="Whisky Jack Daniels">
+                    <p class="text-center">Whisky Jack Daniels 750ml</p>
+
+                </div>
+                <div class="col-12 col-md-3 col-sm-6 col-xl-3">
+                    <img src="./img/ronavanaclub.png" class="rounded mx-auto d-block" alt="Ron Avana Club">
+                    <p class="text-center">Ron Avana Club
+                        clascio 700ml</p>
+
+                </div>
+
+            </div>
+
+
+        </div>
+        <!-- Accesorios -->
+        <div class="containter" id="accesorios">
+            <div class="row">
+                <div class="col">
+                    <div class="col-12">
+                        <h1 class="display-6 p-1 ">Pasamos a otro nivel, te ofrecemos estos Accesorios</h1>
+                        <hr class="separador">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-4 col-sm-6 col-xl-4">
+                    <img src="./img/cocktail-glass-with-drink-in.jpg" class="imagenAccesorio" alt="Copas de Cristal">
+                    <p class="text-center">Copas de cristal</p>
+                </div>
+                <div class="col-12 col-md-4 col-sm-6 col-xl-4">
+                    <img src="./img/coctelera-con-filtro-premium-750cc-3-piezas.jpg" class="imagenAccesorio"
+                        alt="Coctelera premium">
+                    <p class="text-center">Coctelera premiun</p>
+                </div>
+                <div class="col-12 col-md-4 col-sm-6 col-xl-4">
+                    <img src="./img/set-boston-tin.jpg" class="imagenAccesorio" alt="Set Boston Premiun">
+                    <p class="text-center">Set Boston Premiun</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-4 col-sm-6  col-xl-4">
+                    <img src="./img/herramientas-barra-para-cocteleria.jpg" class="imagenAccesorio"
+                        alt="Herramientas para barra cocteles">
+                    <p class="text-center">Herramientas para barra cocteleria</p>
+                </div>
+                <div class="col-12 col-md-4 col-sm-6  col-xl-4">
+                    <img src="./img/port.cocktail-5082892_1920.jpg" class="imagenAccesorio" alt="Portador de Coctel">
+                    <p class="text-center">Portador de coctel</p>
+                </div>
+                <div class="col-12 col-md-4 col-sm-6  col-xl-4">
+                    <img src="./img/set-deluxe.jpg" class="imagenAccesorio" alt="Set deluxe">
+                    <p class="text-center">Set deluxe</p>
+                </div>
+            </div>
+
+        </div>
+        <!--Cocteles  -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <!-- <div id="cocteles" class="carousel slide" data-bs-ride="false"> -->
+
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/GinTonic.jpg" class="d-block w-100" alt="...">
+
+                    <div class="carousel-caption d-none d-md-block">
+                        <!-- <h5 class="text-center">Gin Tonic</h5> -->
+                        <h5 class="headerCoctel">Gin Tonic</h5>
+                        <p class="textoCoctel"> Solo necesitas cinco ingredientes básicos. No necesitas todo el repertorio o
+                            kit de coctelería de
+                            casa.
+                            Ginebra
+                            Hielo
+                            Tónica
+                            Algún cítrico: limón, lima, naranja…
+                            VaGin Tonic
+                            line-plate
+                            Cucumber Gin Tonic
+                            Coloca 1 shot de ginebra en un vaso de cóctel corto y añádela agua tónica. Si lo quieres más
+                            fuerte,
+                            agrega otro shot de ginebra. Luego, adórnalo con una rodaja de limón y ¡listo! Con sólo 2
+                            ingredientes ya tienes un exquisito Gin Tonic.so; uno adecuado y con la capacidad suficiente
+                            para
+                            hacer la mezcla.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/KirRoyal.jpg" class="d-block w-100" alt="...">
+
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="headerCoctel">Kir Royal</h5>
+                        <p class="textoCoctel">Champagne Addict
+                            Para hacer este trago típico de Francia, toma una copa flauta (alta y estrecha) y coloca 2
+                            cdtas. de
+                            crema de cassis. Luego, añádele lentamente 5 oz de champagne. Listo! Ya tenés un trago
+                            sofisticado y
+                            sencillo!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/Fitzgerald.jpg" class="d-block w-100" alt="...">
+
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="headerCoctel">Fitzgerald</h5>
+                        <p class="textoCoctel">Ingredientes
+                            Hielo
+                            2 Chorritos de Bíter
+                            ¼ Parte de Zumo De Limón
+                            1½ Partes de Ginebra
+                            1 Parte de Almíbar</p>
+
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- Contacto -->
+        <div class="container" id="contacto">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="mb-3">Contacto</h2>
+                    <hr class="separador">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Nombre y Apellido</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Juan Perez">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput2" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput2"
+                            placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="form-check mb-3" >
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Se subscribe para recibir nueva informacion
+                        </label>
+                    </div>
+                    <label class="form-label mb-2">
+                        Seleccione su sexo
+                    </label>
+                    <div class="form-check">
+
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1">
+                          Hombre
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                        <label class="form-check-label" for="exampleRadios2">
+                          Mujer
+                        </label>
+                      </div>
+                      <div class="form-check mb-3">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                        <label class="form-check-label" for="exampleRadios3">
+                          No sabe
+                        </label>
+                      </div>
+
+
+
+                    <div class="mb-3">
+                        <button type="button" class="btn btn-dark w-100 fs-4">Enviar</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.483390034464!2d-58.28344028468448!3d-34.71820797107216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32de2b407357b%3A0xe29910a019363b6c!2sMaip%C3%BA%2063%2C%20Bernal%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1655311583728!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <p class="mb-0 p-3">Bartender</p>
+               </div>
+               <div class="col-12 col-md-6">
+                <!-- <button type="button" class="btn btn-primary --bs-btn-font-size: .75rem">redes</button> -->
+                    <p class="mb-0 text-end p-3">Carmona_horacio@hotmail.com</p>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
