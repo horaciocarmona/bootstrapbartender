@@ -58,7 +58,8 @@
 
 footer {
     width: 100vw;
-    height: 7vh;
+    max-height: 20vh;
     background-color: rgb(146, 146, 163);
     font-size: large;
+    /* padding: 2rem; */
 }
